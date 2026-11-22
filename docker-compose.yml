@@ -1,0 +1,7 @@
+services:
+  credit-risk-ann-api:
+    image: tirthdabhi/credit-risk-ann-api:latest
+    container_name: credit-risk-ann-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
